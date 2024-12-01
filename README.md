@@ -26,7 +26,7 @@ This project uses Terraform to provision AWS resources for a simple web applicat
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/terraform-aws-webapp.git
+   git clone https://github.com/atulkamble/terraform-aws-webapp.git
    cd terraform-aws-webapp
    ```
 
