@@ -89,8 +89,8 @@ resource "aws_security_group" "web_sg" {
 resource "aws_instance" "web" {
   ami           = "ami-0453ec754f44f9a4a" # Update for your region
   instance_type = "t2.micro"
-  subnet_id     = aws_subnet.public.id
-  security_groups = [aws_security_group.web_sg.name]
+  subnet_id     = subnet-062a4b29a2e90455e
+  security_groups = [sg-063a85fbe64a0274b]
 
   user_data = <<-EOF
               #!/bin/bash
