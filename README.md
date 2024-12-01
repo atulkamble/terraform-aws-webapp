@@ -13,9 +13,20 @@ This project uses Terraform to provision AWS resources for a simple web applicat
 - AWS CLI configured with appropriate permissions.
 - Terraform installed (v1.x or later).
 
+## Project Structure
+```
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── README.md
+├── .gitignore
+```
+
 ## Usage
 
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/terraform-aws-webapp.git
    cd terraform-aws-webapp
+   ```
+   
